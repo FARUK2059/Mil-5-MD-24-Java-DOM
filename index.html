@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML to Java Document</title>
+</head>
+<body>
+    <main id="main-container">
+        <!-- section*3>h1{section title-$}+ul>li*4{List item-$} -->
+        <!-- section*3>h1.section-titel{section title-$}+ul>li*4{List item-$} -->
+        <section>
+            <h1 class="section-titel">section title-1</h1>
+            <ul>
+                <li>List item-1</li>
+                <li>List item-2</li>
+                <li>List item-3</li>
+                <li>List item-4</li>
+            </ul>
+        </section>
+        <section id="second-section">
+            <h1 class="section-titel">section title-2</h1>
+            <ul id="second-list">
+                <li>List item-1</li>
+                <li>List item-2</li>
+                <li>List item-3</li>
+                <li>List item-4</li>
+            </ul>
+        </section>
+        <section>
+            <h1 class="section-titel">section title-3</h1>
+            <ul>
+                <li>List item-1</li>
+                <li>List item-2</li>
+                <li>List item-3</li>
+                <li>List item-4</li>
+            </ul>
+        </section>
+    </main>
+    <script>
+        console.log('embedded inside HTML File');
+    </script>
+    <script src="./script-1.js"></script>
+    <script src="./script-2.js"></script>
+    <script src="./script-3.js"></script>
+    
+</body>
+</html>
