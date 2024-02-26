@@ -1,0 +1,42 @@
+<!--  JavaScript DOM Dynamic Collor Change -->
+
+<!-- JavaScript DOM এর Dynamic Style হলো এমন স্টাইল প্রপার্টিগুলি যা জাভাস্ক্রিপ্ট ব্যবহার করে একটি HTML এলিমেন্টের স্টাইল পরিবর্তন করে। এটি প্রধানত এমন প্রোপার্টিগুলির ব্যবহার করে যেগুলি CSS ফাইলে না লিখে জাভাস্ক্রিপ্ট দ্বারা ডাইনামিকভাবে সেট করা যায়।
+
+একটি উদাহরণ দেখা যাক: -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Style Example</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 30px;
+            padding: 10px;
+            border-radius: 50%;
+            text-align: center;
+            justify-items: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="My-Box" class="box">
+        Hello, I am Hridoy!
+    </div>
+    <button onclick="changeColor()"> Difarent Hridoy Color</button>
+    <button id="alart" onclick="direct()">Click Me Here</button>
+
+    <script src="./Dynamic.js"></script>
+</body>
+</html>
+
+
+<!-- উপরের উদাহরণে, একটি <div> এলিমেন্টের স্টাইল পরিবর্তন করার জন্য একটি জাভাস্ক্রিপ্ট ফাংশন ব্যবহার করা হয়েছে। বাটনে ক্লিক করার পরে, changeColor() ফাংশনটি কল করা হয়। ফাংশনটি সেট করা হলো স্টাইল পরিবর্তনের জন্য। getElementById() মেথড ব্যবহার করে আমরা এলিমেন্টটি পেতে পারি এবং তারপরে আমরা style প্রপার্টিতে স্টাইল পরিবর্তন করতে পারি, যেমন রঙ পরিবর্তন করা।
+
+    এই ভাবে, জাভাস্ক্রিপ্ট দ্বারা DOM এর ডাইনামিক স্টাইল পরিবর্তন এমনভাবে কাজ করে। এটি ওয়েব পৃষ্ঠাগুলিতে ডাইনামিক কন্টেন্ট তৈরি করতে সহায়ক। -->
+
