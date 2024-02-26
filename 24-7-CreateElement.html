@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>createElement Example</title>
+</head>
+<body>
+    <div id="container">
+        <!-- New elements will be appended here -->
+    </div>
+
+    <script>
+        // Create a new paragraph element
+        var paragraph = document.createElement('p');
+
+        // Set text content for the paragraph
+        paragraph.textContent = 'This is a dynamically created paragraph.';
+
+        // Set a class attribute for styling
+        paragraph.setAttribute('class', 'highlight');
+
+        // Create a new span element
+        var span = document.createElement('span');
+        span.textContent = 'This is a span element inside the paragraph.';
+
+        // Append the span element to the paragraph
+        paragraph.appendChild(span);
+
+        // Get the container element
+        var container = document.getElementById('container');
+
+        // Append the paragraph element to the container
+        container.appendChild(paragraph);
+    </script>
+</body>
+</html>
